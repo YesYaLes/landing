@@ -48,7 +48,7 @@ const DescribeBlock = () => {
 
       {/* Photos Block */}
       <div className=" ">
-        <h1 className="mb-[40px] mt-[0px] text-center text-[25px] font-bold text-white">
+        <h1 className="mb-[40px] mt-[0px] text-center text-[25px] font-bold ">
           Характеристики
         </h1>
         <div className="flex flex-col gap-[20px]">
