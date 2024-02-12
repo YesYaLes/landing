@@ -14,7 +14,7 @@ function App() {
   });
 
   return (
-    <div className="p-10 md:pl-[10%] md:pr-[10%] xl:pl-[15%] xl:pr-[15%]">
+    <div>
       <Header />
       <DescribeBlock />
       <InfoBlock />

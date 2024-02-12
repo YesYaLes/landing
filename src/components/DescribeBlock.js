@@ -6,9 +6,9 @@ import img3 from "../images/DSC5.png";
 import img4 from "../images/SPPP-1.JPG";
 const DescribeBlock = () => {
   return (
-    <div className="pt-[100px]">
+    <div>
       {/* Video Block */}
-      <div>
+      <div className=" p-10 md:pl-[10%] md:pr-[10%] xl:pl-[15%] xl:pr-[15%]">
         <div
           className="flex flex-col items-center justify-center gap-[10px]"
           data-aos="fade-in"
@@ -47,70 +47,75 @@ const DescribeBlock = () => {
       </div>
 
       {/* Photos Block */}
-      <div className="mt-[100px] flex flex-col gap-[80px]">
-        <div
-          className="flex flex-col items-center justify-center gap-5 md:flex-row"
-          data-aos="fade-in"
-          data-aos-duration="1000"
-        >
-          <img
-            src={img1}
-            alt="Some_image"
-            className="w-[100%] rounded-[10px] md:w-[60%] xl:w-[40%]"
-          ></img>
-          <label className="w-[100%] text-center font-serif text-[17px] md:w-[300px]">
-            Электростанция оснащена новейшими технологиями, такими как генерация
-            энергии внутри системы и усовершенствованная система управления
-            батареями, которые обеспечивают максимальную эффективность и
-            надежность. Основными преимуществами данной разработки является
-            полная автономность работы и не подверженность кибернетическим
-            атакам. Устройство обладает широким спектром выходных параметров, 2
-            розетки переменного тока общей мощностью 3 Квт
-          </label>
-        </div>
-        <div
-          className="flex flex-col-reverse items-center justify-center gap-5 md:flex-row"
-          data-aos="fade-in"
-          data-aos-duration="1000"
-        >
-          <label className="w-[100%] text-center font-serif text-[17px] md:w-[300px]">
-            8 USB-портов трёх типов (Type A, C, QC 3.0)с общей мощностью в 40 Вт
-            и возможностью одновременного заряда 8 устройств.
-          </label>
-          <img
-            src={img2}
-            alt="Some_image"
-            className="w-[100%] rounded-[10px] md:w-[60%] xl:w-[40%]"
-          ></img>
-        </div>
-        <div
-          className="flex flex-col items-center justify-center gap-5 md:flex-row"
-          data-aos="fade-in"
-          data-aos-duration="1000"
-        >
-          <img
-            src={img3}
-            alt="Some_image"
-            className="w-[100%] rounded-[10px] md:w-[60%] xl:w-[40%]"
-          ></img>
-          <label className="w-[100%] text-center font-serif text-[17px] md:w-[300px]">
-            2 порта (гнёзда 12V по 10A), для питания таких систем как: “Умный
-            Дом”, видеонаблюдения и т.д., 2 порта для альтернативных источников
-            энергии.Что делает её универсальной и уникальной в любых ситуациях.
-          </label>
+      <div className=" ">
+        <h1 className="mb-[40px] mt-[0px] text-center text-[25px] font-bold text-white">
+          Характеристики
+        </h1>
+        <div className="flex flex-col gap-[20px]">
+          <div
+            className="background flex flex-col items-center justify-center gap-5 p-10 md:flex-row md:pl-[10%] md:pr-[10%] xl:pl-[15%] xl:pr-[15%]"
+            data-aos="fade-in"
+            data-aos-duration="1000"
+          >
+            <div className="w-[100%] rounded-[10px] bg-white p-1 md:w-[50%] xl:w-[30%]">
+              <img src={img1} alt="Some_image" className="rounded-[10px]"></img>
+            </div>
+
+            <label className="w-[100%] text-center text-[17px] text-white md:w-[300px]">
+              Электростанция оснащена новейшими технологиями, такими как
+              генерация энергии внутри системы и усовершенствованная система
+              управления батареями, которые обеспечивают максимальную
+              эффективность и надежность. Устройство обладает широким спектром
+              выходных параметров, 2 розетки переменного тока общей мощностью 3
+              Квт
+            </label>
+          </div>
+          <div
+            className="flex flex-col-reverse items-center justify-center gap-5 p-10 md:flex-row md:pl-[10%] md:pr-[10%] xl:pl-[15%] xl:pr-[15%]"
+            data-aos="fade-in"
+            data-aos-duration="1000"
+          >
+            <label className="w-[100%] text-center text-[17px]  md:w-[300px]">
+              Основными преимуществами данной разработки является полная
+              автономность работы и не подверженность кибернетическим атакам. В
+              наличии 8 USB-портов трёх типов (Type A, C, QC 3.0)с общей
+              мощностью в 40 Вт и возможностью одновременного заряда 8
+              устройств.
+            </label>
+            <div className="w-[100%] rounded-[10px] md:w-[50%] xl:w-[30%]">
+              <img src={img2} alt="Some_image" className="rounded-[10px]"></img>
+            </div>
+          </div>
+          <div
+            className="background flex flex-col items-center justify-center gap-5 p-10 md:flex-row md:pl-[10%] md:pr-[10%] xl:pl-[15%] xl:pr-[15%]"
+            data-aos="fade-in"
+            data-aos-duration="1000"
+          >
+            <div className="w-[100%] rounded-[10px] bg-white p-1 md:w-[50%] xl:w-[30%]">
+              <img src={img3} alt="Some_image" className="rounded-[10px]"></img>
+            </div>
+            <label
+              className="w-[100%] text-center  text-[17px] text-white md:w-[300px]"
+              id="usage"
+            >
+              Также присутствуют 2 порта (гнёзда 12V по 10A), для питания таких
+              систем как: “Умный Дом”, видеонаблюдения и т.д., 2 порта для
+              альтернативных источников энергии. Что делает её универсальной и
+              уникальной в любых ситуациях.
+            </label>
+          </div>
         </div>
       </div>
 
       {/* Overall Info Block */}
 
       <div
-        className="mt-[100px] flex flex-col items-center justify-center scroll-smooth"
-        id="usage"
+        className="mt-[100px] flex flex-col items-center justify-center scroll-smooth p-10 md:pl-[10%] md:pr-[10%] xl:pl-[15%] xl:pr-[15%]"
         data-aos="fade-in"
         data-aos-duration="1000"
       >
         <h1 className="mb-[40px] text-center font-sans text-[25px] font-bold">
-          Униварсальность испозьзования
+          Универсальность использования
         </h1>
         <label className="mb-[30px] text-center font-serif text-[18px] xl:w-[800px]">
           SPPP-1+ Power Wall 8000, и вы никогда не останетесь без
@@ -121,7 +126,7 @@ const DescribeBlock = () => {
         <img
           src={img4}
           alt="Some_image"
-          className="mb-[20px] w-[100%] rounded-[10px] md:w-[70%]"
+          className="mb-[20px] w-[100%] rounded-[10px] md:w-[40%]"
         />
         <label className="mb-[30px] text-center font-serif text-[18px] xl:w-[800px]">
           SPPP-1+ Power Wall 8000 (аккумуляторная система хранения энергии 8000
@@ -137,14 +142,14 @@ const DescribeBlock = () => {
       {/* Payment Block */}
 
       <div
-        className="mt-[100px] flex flex-col items-center justify-center"
+        className="background mt-[100px] flex flex-col items-center justify-center p-10 md:pl-[10%] md:pr-[10%] xl:pl-[15%] xl:pr-[15%]"
         data-aos="fade-in"
         data-aos-duration="1000"
       >
-        <h1 className="mb-[40px] text-center font-sans text-[25px] font-bold">
+        <h1 className="mb-[40px] text-center font-sans text-[25px] font-bold text-white">
           Предпродажный депозит $ 100 (доллар США)
         </h1>
-        <label className="mb-[30px] text-center font-serif text-[18px] xl:w-[800px]">
+        <label className="mb-[30px] text-center  text-[18px] text-white xl:w-[800px]">
           Вы получите один из самых первых продуктов в этой линейке. Чем больше
           станет наше сообщество, тем лучше мы сможем сделать продукт и главное
           снизить цену на наши устройства. Наша компания отличается от того, к
@@ -154,7 +159,7 @@ const DescribeBlock = () => {
           который даст вам скидку 30% от рекомендованной цены розничной цены
           2024 года.
         </label>
-        <h1 className="mb-[40px] text-center font-sans text-[20px] font-bold">
+        <h1 className="mb-[40px] text-center font-sans text-[20px] font-bold text-white">
           * Рекомендуемая розничная цена за комплект SPPP-1+ Power Wall 8000 - $
           8500.
         </h1>

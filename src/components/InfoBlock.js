@@ -13,7 +13,7 @@ const InfoBlock = () => {
   return (
     <div>
       <div
-        className="flex-row md:ml-[25%] md:w-[50%] xl:ml-[20%] xl:w-[60%]"
+        className=" ml-0 w-[100%]  flex-row p-10 md:pl-[10%] md:pr-[10%] xl:ml-[25%] xl:w-[50%] xl:pl-[15%] xl:pr-[15%] "
         data-aos="fade-in"
         data-aos-duration="1000"
       >
@@ -84,13 +84,12 @@ const InfoBlock = () => {
       {/* Summary */}
 
       <div
-        className="mt-[100px] flex flex-col items-center justify-center"
+        className="mt-[100px] flex flex-col items-center justify-center p-10 md:pl-[10%] md:pr-[10%] xl:pl-[15%] xl:pr-[15%] "
         data-aos="fade-in"
         data-aos-duration="1000"
       >
-        <h1 className="mb-[40px] w-[100%] text-center font-sans text-[25px] font-bold md:w-[800px]">
-          В S&E-Energy мы понимаем важность надежных и эффективных
-          энергетических решений для вашего бизнеса или личных нужд
+        <h1 className="mb-[40px]  w-[100%] text-center font-sans text-[25px] font-bold md:w-[800px] ">
+          Ответственное отношение к вашим потребностям
         </h1>
         <label className="mb-[30px] text-center font-serif text-[18px] xl:w-[800px]">
           Если вы планируете отправиться на природу, просто отключите
@@ -101,7 +100,7 @@ const InfoBlock = () => {
           работы и отдыха на природе. Модульность - это вариант для людей,
           которым нужна серьезная мощность.
         </label>
-        <label className="mb-[30px] text-center font-serif text-[18px] xl:w-[800px]">
+        <label className="mb-[30px] text-center  text-[18px] font-semibold xl:w-[800px]">
           Доверьтесь S&E-Energy , и мы поможем вам перейти на чистую энергию,
           сэкономить деньги и снизить воздействие на окружающую среду.
         </label>
@@ -110,16 +109,16 @@ const InfoBlock = () => {
       {/* Response Block */}
 
       <div
-        className=" mb-[100px] mt-[50px] flex flex-col items-center justify-center scroll-smooth md:flex-row md:gap-5"
+        className=" background mb-[100px] mt-[50px] flex flex-col items-center justify-center scroll-smooth p-10 md:flex-row md:gap-5 md:pl-[10%] md:pr-[10%] xl:pl-[15%] xl:pr-[15%] "
         id="contact"
         data-aos="fade-in"
         data-aos-duration="1000"
       >
         <div className="mb-5 flex w-[300px] flex-col items-center justify-center">
-          <h1 className="mb-[10px] font-sans text-[25px] font-bold">
+          <h1 className="mb-[10px] font-sans text-[25px] font-bold text-white">
             Остались вопросы?
           </h1>
-          <label className="w-[100%] text-center font-serif text-[17px] md:w-[300px]">
+          <label className="w-[100%] text-center  text-[17px] text-white md:w-[300px]">
             Напишите что вы хотели бы узнать, и наши специалисты свяжутся с вами
             в кратчайшее время
           </label>
