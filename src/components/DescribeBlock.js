@@ -34,6 +34,7 @@ const DescribeBlock = () => {
             muted
             className="w-[100%] rounded-[10px] object-fill md:w-[80%] lg:w-[70%]"
             controls
+            loop
           />
           <label
             className="scroll-smooth text-center font-serif text-[18px]"
@@ -68,19 +69,19 @@ const DescribeBlock = () => {
           </label>
         </div>
         <div
-          className="flex flex-col items-center justify-center gap-5 md:flex-row-reverse"
+          className="flex flex-col-reverse items-center justify-center gap-5 md:flex-row"
           data-aos="fade-in"
           data-aos-duration="1000"
         >
+          <label className="w-[100%] text-center font-serif text-[17px] md:w-[300px]">
+            8 USB-портов трёх типов (Type A, C, QC 3.0)с общей мощностью в 40 Вт
+            и возможностью одновременного заряда 8 устройств.
+          </label>
           <img
             src={img2}
             alt="Some_image"
             className="w-[100%] rounded-[10px] md:w-[60%] xl:w-[40%]"
           ></img>
-          <label className="w-[100%] text-center font-serif text-[17px] md:w-[300px]">
-            8 USB-портов трёх типов (Type A, C, QC 3.0)с общей мощностью в 40 Вт
-            и возможностью одновременного заряда 8 устройств.
-          </label>
         </div>
         <div
           className="flex flex-col items-center justify-center gap-5 md:flex-row"
