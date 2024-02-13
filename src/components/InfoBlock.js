@@ -91,7 +91,7 @@ const InfoBlock = () => {
         <h1 className="mb-[40px]  w-[100%] text-center font-sans text-[25px] font-bold md:w-[800px] ">
           Ответственное отношение к вашим потребностям
         </h1>
-        <label className="mb-[30px] text-center font-serif text-[18px] xl:w-[800px]">
+        <label className="mb-[30px] text-center font-serif md:text-[18px] xl:w-[800px]">
           Если вы планируете отправиться на природу, просто отключите
           электростанцию SPPP-1 и возьмите ее с собой. А с переносной
           аккумуляторной системой хранения - Power Wall 2000, которая
@@ -100,7 +100,7 @@ const InfoBlock = () => {
           работы и отдыха на природе. Модульность - это вариант для людей,
           которым нужна серьезная мощность.
         </label>
-        <label className="mb-[30px] text-center  text-[18px] font-semibold xl:w-[800px]">
+        <label className="mb-[30px] text-center  font-semibold md:text-[18px] xl:w-[800px]">
           Доверьтесь S&E-Energy , и мы поможем вам перейти на чистую энергию,
           сэкономить деньги и снизить воздействие на окружающую среду.
         </label>
@@ -118,7 +118,7 @@ const InfoBlock = () => {
           <h1 className="mb-[10px] font-sans text-[25px] font-bold text-white">
             Остались вопросы?
           </h1>
-          <label className="w-[100%] text-center  text-[17px] text-white md:w-[300px]">
+          <label className="w-[100%] text-center  text-white md:w-[300px] md:text-[17px]">
             Напишите что вы хотели бы узнать, и наши специалисты свяжутся с вами
             в кратчайшее время
           </label>

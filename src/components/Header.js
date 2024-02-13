@@ -33,7 +33,7 @@ const Header = () => {
           <h3 className="text-center font-sans text-[25px] font-bold text-white">
             S&E-Energy Обеспечит вас бесконечной энергией
           </h3>
-          <label className="text-center  text-[18px] text-white xl:w-[800px]">
+          <label className="text-center text-white md:text-[18px] xl:w-[800px]">
             В S&E-Energy мы считаем, что каждый должен иметь доступ к энергии.
             Поэтому мы создали систему автономного электроснабжения -
             Стационарно Портативную электростанцию, которая обеспечит надежное и

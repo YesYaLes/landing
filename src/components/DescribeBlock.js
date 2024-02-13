@@ -15,7 +15,7 @@ const DescribeBlock = () => {
           data-aos-duration="1000"
         >
           <h3 className="text-[21px] font-bold ">Автономное электричество </h3>
-          <label className="text-center font-serif text-[18px] xl:w-[800px]">
+          <label className="text-center font-serif md:text-[18px] xl:w-[800px]">
             Происходят стихийные бедствия, проживаете в труднодоступных районах,
             находитесь в кемпинге, путешествуете с семьей, устраиваете вечеринку
             на берегу океана или в лесу, или просто нуждаетесь в бесперебойной
@@ -37,7 +37,7 @@ const DescribeBlock = () => {
             loop
           />
           <label
-            className="scroll-smooth text-center font-serif text-[18px]"
+            className="scroll-smooth text-center font-serif md:text-[18px]"
             id="characteristics"
           >
             Стационарно Портативная электростанция, одно решение для всех ваших
@@ -61,7 +61,7 @@ const DescribeBlock = () => {
               <img src={img1} alt="Some_image" className="rounded-[10px]"></img>
             </div>
 
-            <label className="w-[100%] text-center text-[17px] text-white md:w-[300px]">
+            <label className="w-[100%] text-center text-white md:w-[300px] md:text-[17px]">
               Электростанция оснащена новейшими технологиями, такими как
               генерация энергии внутри системы и усовершенствованная система
               управления батареями, которые обеспечивают максимальную
@@ -75,7 +75,7 @@ const DescribeBlock = () => {
             data-aos="fade-in"
             data-aos-duration="1000"
           >
-            <label className="w-[100%] text-center text-[17px]  md:w-[300px]">
+            <label className="w-[100%] text-center md:w-[300px]  md:text-[17px]">
               Основными преимуществами данной разработки является полная
               автономность работы и не подверженность кибернетическим атакам. В
               наличии 8 USB-портов трёх типов (Type A, C, QC 3.0)с общей
@@ -95,7 +95,7 @@ const DescribeBlock = () => {
               <img src={img3} alt="Some_image" className="rounded-[10px]"></img>
             </div>
             <label
-              className="w-[100%] text-center  text-[17px] text-white md:w-[300px]"
+              className="w-[100%] text-center  text-white md:w-[300px] md:text-[17px]"
               id="usage"
             >
               Также присутствуют 2 порта (гнёзда 12V по 10A), для питания таких
@@ -117,7 +117,7 @@ const DescribeBlock = () => {
         <h1 className="mb-[40px] text-center font-sans text-[25px] font-bold">
           Универсальность использования
         </h1>
-        <label className="mb-[30px] text-center font-serif text-[18px] xl:w-[800px]">
+        <label className="mb-[30px] text-center font-serif md:text-[18px] xl:w-[800px]">
           SPPP-1+ Power Wall 8000, и вы никогда не останетесь без
           электроэнергии. Наша система автономного электроснабжения проста в
           установке и требует минимального обслуживания, она спроектирована так,
@@ -128,7 +128,7 @@ const DescribeBlock = () => {
           alt="Some_image"
           className="mb-[20px] w-[100%] rounded-[10px] md:w-[40%]"
         />
-        <label className="mb-[30px] text-center font-serif text-[18px] xl:w-[800px]">
+        <label className="mb-[30px] text-center font-serif md:text-[18px] xl:w-[800px]">
           SPPP-1+ Power Wall 8000 (аккумуляторная система хранения энергии 8000
           Вт) легко работает с устройствами с большими нагрузками, такими как:
         </label>
@@ -214,7 +214,7 @@ const DescribeBlock = () => {
         <h1 className="mb-[40px] text-center font-sans text-[25px] font-bold text-white">
           Предпродажный депозит $ 100 (доллар США)
         </h1>
-        <label className="mb-[30px] text-center  text-[18px] text-white xl:w-[800px]">
+        <label className="mb-[30px] text-center  text-white md:text-[18px] xl:w-[800px]">
           Вы получите один из самых первых продуктов в этой линейке. Чем больше
           станет наше сообщество, тем лучше мы сможем сделать продукт и главное
           снизить цену на наши устройства. Наша компания отличается от того, к
