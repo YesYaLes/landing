@@ -132,11 +132,76 @@ const DescribeBlock = () => {
           SPPP-1+ Power Wall 8000 (аккумуляторная система хранения энергии 8000
           Вт) легко работает с устройствами с большими нагрузками, такими как:
         </label>
-        <img
-          src=""
-          alt="Фото Таблица"
-          className="w-[100%] rounded-[10px] md:w-[70%]"
-        />
+        <div className="flex w-[100%] flex-col lg:w-[65%] xl:w-[50%]">
+          <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
+            <div className="inline-block min-w-full py-2 sm:px-6 lg:px-8">
+              <div className="overflow-hidden">
+                <table className="min-w-full text-center text-sm font-light">
+                  <thead className="dark:border-neutral-500 border-b text-center font-medium">
+                    <tr>
+                      <th scope="col" className="px-6 py-4">
+                        Название
+                      </th>
+                      <th scope="col" className="hidden px-6 py-4 ">
+                        Мощность
+                      </th>
+                      <th scope="col" className="px-6 py-4">
+                        Поддержка
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr className="dark:border-neutral-500 border-b ">
+                      <td className="whitespace-nowrap px-6 py-4">
+                        Холодильник
+                      </td>
+                      <td className="hidden whitespace-nowrap px-6 py-4 sm:block">
+                        От 300 Вт
+                      </td>
+                      <td className="whitespace-nowrap px-6 py-4">✔</td>
+                    </tr>
+                    <tr className="dark:border-neutral-500 w-[50%] border-b ">
+                      <td className="whitespace-nowrap px-6 py-4">
+                        Бетономешалка
+                      </td>
+                      <td className="hidden whitespace-nowrap px-6 py-4 sm:block">
+                        От 1000 Вт
+                      </td>
+                      <td className="whitespace-nowrap px-6 py-4">✔</td>
+                    </tr>
+                    <tr className="dark:border-neutral-500 border-b ">
+                      <td className="whitespace-nowrap px-6 py-4">
+                        Электрочайник
+                      </td>
+                      <td className="hidden whitespace-nowrap px-6 py-4 sm:block">
+                        От 1500 Вт
+                      </td>
+                      <td className="whitespace-nowrap px-6 py-4">✔</td>
+                    </tr>
+                    <tr className="dark:border-neutral-500 border-b ">
+                      <td className="whitespace-nowrap px-6 py-4">
+                        Водонагреватель
+                      </td>
+                      <td className="hidden whitespace-nowrap px-6 py-4 sm:block">
+                        От 3000 Вт
+                      </td>
+                      <td className="whitespace-nowrap px-6 py-4">✔</td>
+                    </tr>
+                    <tr className="dark:border-neutral-500 border-b ">
+                      <td className="whitespace-nowrap px-6 py-4">
+                        Посудомойка
+                      </td>
+                      <td className="hidden whitespace-nowrap px-6 py-4 sm:block">
+                        От 2000 Вт
+                      </td>
+                      <td className="whitespace-nowrap px-6 py-4">✔</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       {/* Payment Block */}

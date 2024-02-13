@@ -5,11 +5,13 @@ const Header = () => {
   return (
     <div className="background p-10 md:pl-[10%] md:pr-[10%] xl:pl-[15%] xl:pr-[15%]">
       <div className="background fixed left-0 top-0 z-10 flex h-[70px]  w-[100vw] flex-row items-center justify-between pl-10 pr-10 md:h-[85px] xl:h-[100px]">
-        <img
-          src={logo}
-          alt="Logo"
-          className="h-[50px] w-[50px] md:h-[65px] md:w-[65px] xl:h-[80px] xl:w-[80px]"
-        />
+        <div className="flex h-[50px] w-[50px] items-center justify-center rounded-[50px] bg-white p-1 md:h-[65px] md:w-[65px] xl:h-[80px] xl:w-[80px]">
+          <img
+            src={logo}
+            alt="Some_image"
+            className="rounded-[50px] pl-[2px]"
+          ></img>
+        </div>
         <div className=" flex flex-row items-center gap-[10px] md:flex-row">
           <label className=" hidden font-bold text-white md:block">
             Готовы к подзарядке?
