@@ -91,7 +91,7 @@ const InfoBlock = () => {
         <h1 className="mb-[40px]  w-[100%] text-center font-sans text-[25px] font-bold md:w-[800px] ">
           Ответственное отношение к вашим потребностям
         </h1>
-        <label className="mb-[30px] text-center font-serif md:text-[18px] xl:w-[800px]">
+        <label className="mb-[30px]  font-serif md:text-[18px] xl:w-[800px]">
           Если вы планируете отправиться на природу, просто отключите
           электростанцию SPPP-1 и возьмите ее с собой. А с переносной
           аккумуляторной системой хранения - Power Wall 2000, которая
@@ -118,7 +118,7 @@ const InfoBlock = () => {
           <h1 className="mb-[10px] font-sans text-[25px] font-bold text-white">
             Остались вопросы?
           </h1>
-          <label className="w-[100%] text-center  text-white md:w-[300px] md:text-[17px]">
+          <label className="w-[100%]   text-white md:w-[300px] md:text-[17px]">
             Напишите что вы хотели бы узнать, и наши специалисты свяжутся с вами
             в кратчайшее время
           </label>
